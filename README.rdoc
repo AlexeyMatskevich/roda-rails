@@ -22,7 +22,7 @@ Source code is available on GitHub at https://github.com/jeremyevans/roda-rails
 
 = Usage
 
-roda-rails currently includes a rails42 plugin, which you can load just like
+roda-rails currently includes a rails60 plugin, which you can load just like
 any other Roda plugin:
 
   plugin :rails60
