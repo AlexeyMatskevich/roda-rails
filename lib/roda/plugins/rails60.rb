@@ -1,6 +1,6 @@
 class Roda
   module RodaPlugins
-    module Rails42
+    module Rails60
       Flash = ActionDispatch::Flash
       AUTHENTICITY_TOKEN_LENGTH = 32
       DEFAULT_CHECK_CSRF = lambda{|_| !r.is_get?}
@@ -18,7 +18,7 @@ class Roda
         app.opts[:rails] = opts
       end
 
-      ### Rails 4.2 integration code, most code from Rails
+      ### Rails 6.0 integration code, most code from Rails
       module InstanceMethods
         def call
           catch(:halt) do
@@ -107,7 +107,7 @@ class Roda
       end
     end
 
-    register_plugin(:rails42, Rails42)
+    register_plugin(:rails60, Rails60)
   end
 end
 

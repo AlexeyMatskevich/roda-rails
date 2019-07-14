@@ -15,6 +15,6 @@ application.  It allows the Roda middleware to use Rails flash handling as well
 as Rails' CSRF support.
 END
 
-  s.add_dependency "roda", '>= 2'
-  s.add_dependency "rails", '~> 4.2.0'
+  s.add_dependency "roda", ">= 2"
+  s.add_dependency "rails", "~> 6.0.0.rc1"
 end

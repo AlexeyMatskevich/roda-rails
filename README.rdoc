@@ -25,7 +25,7 @@ Source code is available on GitHub at https://github.com/jeremyevans/roda-rails
 roda-rails currently includes a rails42 plugin, which you can load just like
 any other Roda plugin:
 
-  plugin :rails42
+  plugin :rails60
 
 The following plugin options are supported:
 
